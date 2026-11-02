@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "edenred": {
+      "command": "${CLAUDE_PROJECT_DIR:-.}/.venv/bin/python",
+      "args": ["${CLAUDE_PROJECT_DIR:-.}/gateway/gateway.py", "serve"]
+    }
+  }
+}

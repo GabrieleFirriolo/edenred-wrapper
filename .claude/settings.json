@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__edenred__*",
+      "Bash(.venv/bin/python -I tools/har_struttura.py *)"
+    ],
+    "ask": [
+      "Edit(/config.env)",
+      "Write(/config.env)"
+    ],
+    "deny": [
+      "Bash(*cli.py approve*)",
+      "Bash(*127.0.0.1:8787*)",
+      "Bash(*localhost:8787*)",
+      "Read(~/.edenred-gateway/**)",
+      "Read(~/.edenred/**)",
+      "Read(**/*.har)",
+      "Edit(/gateway/gateway.py)",
+      "Edit(/api/cli.py)",
+      "Edit(/api/drafts.py)",
+      "Edit(/.claude/**)",
+      "Edit(/.mcp.json)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}

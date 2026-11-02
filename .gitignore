@@ -1,0 +1,17 @@
+# ambiente
+.venv/
+__pycache__/
+*.pyc
+
+# configurazione e dati locali: mai su git
+config.env
+.env
+*.har
+har/
+sessions/
+struttura*.json
+mutazioni*.json
+note/
+
+# versione API: solo in locale finché non ci sono gli endpoint veri
+api/
